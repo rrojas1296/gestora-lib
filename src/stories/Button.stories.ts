@@ -42,3 +42,10 @@ export const Icon: Story = {
     variant: "icon",
   },
 };
+
+export const Outlined: Story = {
+  args: {
+    children: "Click me",
+    variant: "outlined",
+  },
+};
