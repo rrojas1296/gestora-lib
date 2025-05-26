@@ -25,7 +25,6 @@ const Input = ({
         className={cn("flex-1 text-sm outline-none", inputClassName)}
         {...other}
       />
-      <div>🚀</div>
       {Icon && Icon}
     </div>
   );
