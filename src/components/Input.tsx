@@ -2,9 +2,9 @@ import type { ComponentProps, JSX } from "react";
 import { cn } from "../utils/cn";
 
 interface Props extends ComponentProps<"input"> {
-  Icon: JSX.Element;
-  containerClassName: string;
-  inputClassName: string;
+  Icon?: JSX.Element;
+  containerClassName?: string;
+  inputClassName?: string;
 }
 const Input = ({
   Icon,
