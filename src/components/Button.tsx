@@ -21,9 +21,11 @@ interface Props
   extends ComponentProps<"button">,
     VariantProps<typeof variants> {}
 
-const Button = ({ children, className, variant }: Props) => {
+const Button = ({ children, className, variant, ...other }: Props) => {
   return (
-    <button className={cn(variants({ variant, className }))}>{children}</button>
+    <button className={cn(variants({ variant, className }))} {...other}>
+      {children}
+    </button>
   );
 };
 
