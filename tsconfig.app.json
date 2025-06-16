@@ -27,6 +27,10 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "types": [
+      "vitest/globals",
+      "@vitest/browser/providers/playwright"
+    ]
   },
   "include": ["src"]
 }
