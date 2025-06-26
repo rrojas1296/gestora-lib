@@ -1,6 +1,7 @@
 import type { ComponentProps } from "react";
 import Input from "../components/Input";
 import type { Meta, StoryObj } from "@storybook/react";
+import withColorSchema from "@/decorators/withColorSchema";
 
 type StoryProps = ComponentProps<typeof Input>;
 type Story = StoryObj<StoryProps>;
@@ -12,6 +13,7 @@ const meta: Meta<StoryProps> = {
   args: {
     placeholder: "Enter here text",
   },
+  decorators: [withColorSchema],
 };
 
 export default meta;

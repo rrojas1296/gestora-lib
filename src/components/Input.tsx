@@ -16,7 +16,7 @@ const Input = ({
   return (
     <div
       className={cn(
-        "flex gap-4 justify-between h-10 items-center rounded-md w-[350px] px-4 border-gray-300 border-[1px] outline-none bg-transparent",
+        "flex gap-4 justify-between h-10 items-center rounded-md max-w-md px-4 border-gray-300 border-[1px] outline-none bg-transparent dark:border-gray-600",
         containerClassName,
       )}
     >

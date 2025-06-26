@@ -1,6 +1,7 @@
 import type { ComponentProps } from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 import Toast from "@/components/Toast/Toast";
+import withColorSchema from "@/decorators/withColorSchema";
 
 type StoryProps = ComponentProps<typeof Toast>;
 type Story = StoryObj<StoryProps>;
@@ -12,6 +13,7 @@ const meta: Meta<StoryProps> = {
   args: {
     text: "Here is the text example",
   },
+  decorators: [withColorSchema],
 };
 
 export default meta;

@@ -1,6 +1,7 @@
 import type { ComponentProps } from "react";
 import type { Meta, StoryObj } from "@storybook/react";
 import DropdownMenuDemo from "@/components/DropdownMenu/DropdownMenu";
+import withColorSchema from "@/decorators/withColorSchema";
 
 type StoryProps = ComponentProps<typeof DropdownMenuDemo>;
 type Story = StoryObj<StoryProps>;
@@ -10,6 +11,7 @@ const meta: Meta<StoryProps> = {
   component: DropdownMenuDemo,
   tags: ["dropdown"],
   args: {},
+  decorators: [withColorSchema],
 };
 
 export default meta;

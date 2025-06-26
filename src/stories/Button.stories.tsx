@@ -1,4 +1,6 @@
 import Button from "@/components/Button/Button";
+import HomeIcon from "@/components/Icons/HomeIcon";
+import withColorSchema from "@/decorators/withColorSchema";
 import type { Meta, StoryObj } from "@storybook/react";
 import type { ComponentProps } from "react";
 
@@ -17,6 +19,7 @@ const meta: Meta<StoryProps> = {
   args: {
     variant: "filled",
   },
+  decorators: [withColorSchema],
 };
 
 export default meta;
@@ -38,7 +41,7 @@ export const Ghost: Story = {
 
 export const Icon: Story = {
   args: {
-    children: "🚀",
+    children: <HomeIcon className="w-5 h-5" />,
     variant: "icon",
   },
 };
