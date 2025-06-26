@@ -1,0 +1,9 @@
+html.light {
+  color-scheme: light;
+  background-color: #ffffff;
+}
+
+html.dark {
+  background-color: #000000;
+  color-scheme: dark;
+}

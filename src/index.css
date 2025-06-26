@@ -109,17 +109,3 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
-
-button {
-  display: block;
-}
-
-html.light {
-  color-scheme: light;
-  background-color: #ffffff;
-}
-
-html.dark {
-  background-color: #000000;
-  color-scheme: dark;
-}

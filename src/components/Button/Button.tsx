@@ -11,7 +11,7 @@ const variants = cva(
           "bg-gray-500 text-white hover:bg-gray-400 dark:bg-gray-700 dark:hover:bg-gray-600",
         ghost:
           "bg-transparent text-black hover:bg-gray-100 dark:text-white dark:hover:bg-gray-800",
-        icon: "rounded-full p-0 h-10 w-10 bg-transparent text-black hover:bg-gray-100 dark:hover:bg-gray-800 dark:text-white",
+        icon: "rounded-full justify-center items-center p-0 h-10 w-10 bg-transparent text-black hover:bg-gray-100 dark:hover:bg-gray-800 dark:text-white",
         outlined:
           "bg-transparent border border-gray-300 hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-800 dark:text-white",
       },
