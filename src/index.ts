@@ -19,4 +19,4 @@ export {
   DropdownMenuSubTrigger,
   DropdownMenuSubContent,
 } from "@/components/ui/dropdown-menu";
-import "./index.css";
+import "./styles/index.css";

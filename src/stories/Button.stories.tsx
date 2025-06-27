@@ -41,7 +41,7 @@ export const Ghost: Story = {
 
 export const Icon: Story = {
   args: {
-    children: <HomeIcon className="w-5 h-5" />,
+    children: <HomeIcon className="w-5 h-5 stroke-current" />,
     variant: "icon",
   },
 };

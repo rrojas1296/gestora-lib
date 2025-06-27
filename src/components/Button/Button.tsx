@@ -7,13 +7,11 @@ const variants = cva(
   {
     variants: {
       variant: {
-        filled:
-          "bg-gray-500 text-white hover:bg-gray-400 dark:bg-gray-700 dark:hover:bg-gray-600",
-        ghost:
-          "bg-transparent text-black hover:bg-gray-100 dark:text-white dark:hover:bg-gray-800",
-        icon: "rounded-full justify-center items-center p-0 h-10 w-10 bg-transparent text-black hover:bg-gray-100 dark:hover:bg-gray-800 dark:text-white",
+        filled: "bg-primary text-white hover:bg-primary/90",
+        ghost: "bg-transparent text-text-1 hover:bg-bg-2",
+        icon: "rounded-full text-text-1 justify-center items-center p-0 h-10 w-10 bg-transparent hover:bg-bg-2",
         outlined:
-          "bg-transparent border border-gray-300 hover:bg-gray-100 dark:border-gray-600 dark:hover:bg-gray-800 dark:text-white",
+          "bg-transparent hover:bg-bg-2 border border-border-1 text-text-1",
       },
     },
   },

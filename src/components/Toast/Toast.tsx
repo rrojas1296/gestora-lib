@@ -20,7 +20,7 @@ const Toast = ({ text, type, className, ...other }: Props) => {
   return (
     <div
       className={cn(
-        "bg-gray-100 shadow-md flex gap-4 items-center py-3 px-5 border-slate-300 border text-gray-700 text-sm w-sm rounded-md dark:bg-gray-800 dark:text-white dark:border-gray-600",
+        "bg-bg-2 shadow-md flex gap-4 items-center py-3 px-5 border-border-2 border text-text-1 text-sm w-sm rounded-md",
         className,
       )}
       {...other}
