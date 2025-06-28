@@ -55,7 +55,13 @@ interface Props extends VariantProps<typeof variants>, ComponentProps<"div"> {
   children: React.ReactNode;
 }
 
-const Sidebar = ({ position, open, setOpen, children, className }: Props) => {
+const Sidebar = ({
+  position = "left",
+  open,
+  setOpen,
+  children,
+  className,
+}: Props) => {
   return (
     <>
       <div

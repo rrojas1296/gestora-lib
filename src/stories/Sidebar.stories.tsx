@@ -17,7 +17,6 @@ const meta: Meta<StoryProps> = {
       control: "select",
       options: ["left", "right", "bottom"],
       description: "Posición del sidebar",
-      defaultValue: "left",
     },
     open: {
       table: {
@@ -40,6 +39,9 @@ const meta: Meta<StoryProps> = {
 export default meta;
 
 export const Interactive: Story = {
+  args: {
+    position: "left",
+  },
   render: (args) => {
     const [open, setOpen] = useState(false);
     return (

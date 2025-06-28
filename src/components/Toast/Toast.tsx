@@ -20,7 +20,13 @@ const iconVariants = {
 const Toast = ({ text, type, className, ...other }: Props) => {
   const Icon = iconVariants[type];
   return (
-    <div className={cn(className)} {...other}>
+    <div
+      className={cn(
+        "rounded-md border border-border-2 flex items-center gap-2 py-2 px-3 bg-bg-1 text-sm max-w-sm",
+        className,
+      )}
+      {...other}
+    >
       {Icon}
       {text}
     </div>
