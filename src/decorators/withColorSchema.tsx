@@ -2,10 +2,9 @@ import type { DecoratorFunction } from "storybook/internal/types";
 
 const withColorSchema: DecoratorFunction = (Story, context) => {
   const { scheme } = context.globals;
-  document.documentElement.classList.add("htmlcontainer");
+  document.documentElement.classList.remove("dark");
 
   if (scheme === "dark") {
-    document.documentElement.classList.remove("light");
     document.documentElement.classList.add("dark");
     return <Story />;
   } else {

@@ -19,4 +19,6 @@ export {
   DropdownMenuSubTrigger,
   DropdownMenuSubContent,
 } from "@/components/ui/dropdown-menu";
+
+export { default as Sidebar } from "@/components/ui/sidebar";
 import "./styles/index.css";

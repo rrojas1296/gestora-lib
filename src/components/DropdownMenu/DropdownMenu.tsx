@@ -18,7 +18,7 @@ const DropdownMenuDemo = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="filled">Open</Button>
+        <Button variant="filled">Open Dropdown</Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56" align="start">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>

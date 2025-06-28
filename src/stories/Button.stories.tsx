@@ -12,12 +12,14 @@ const meta: Meta<StoryProps> = {
   tags: ["button"],
   argTypes: {
     variant: {
-      options: ["filled", "ghost", "icon"],
+      options: ["filled", "ghost", "icon", "outlined"],
       control: { type: "select" },
     },
-  },
-  args: {
-    variant: "filled",
+    children: {
+      table: {
+        disable: true,
+      },
+    },
   },
   decorators: [withColorSchema],
 };
