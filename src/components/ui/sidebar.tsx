@@ -53,6 +53,7 @@ interface Props extends VariantProps<typeof variants>, ComponentProps<"div"> {
   open: boolean;
   setOpen: (open: boolean) => void;
   children: React.ReactNode;
+  overlayClassName?: string;
 }
 
 const Sidebar = ({
@@ -61,15 +62,17 @@ const Sidebar = ({
   setOpen,
   children,
   className,
+  overlayClassName,
 }: Props) => {
   return (
     <>
       <div
         className={cn(
-          "fixed top-0 left-0 inset-0 bg-black transition-opacity ease-out",
+          "fixed top-0 left-0 inset-0 bg-black transition-opacity ease-out z-10",
           open
             ? "opacity-50 pointer-events-auto"
             : "opacity-0 pointer-events-none",
+          overlayClassName,
         )}
         onClick={() => setOpen(false)}
       />
@@ -77,7 +80,7 @@ const Sidebar = ({
       <div
         className={cn(
           variants({ position, open }),
-          "transition-transform ease-out",
+          "transition-transform ease-out z-10",
           className,
         )}
       >

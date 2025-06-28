@@ -2,7 +2,6 @@ import type { ComponentProps } from "react";
 import Input from "../components/Input";
 import type { Meta, StoryObj } from "@storybook/react";
 import withColorSchema from "@/decorators/withColorSchema";
-import HomeIcon from "@/components/Icons/HomeIcon";
 import EmailIcon from "@/components/Icons/EmailIcon";
 
 type StoryProps = ComponentProps<typeof Input> & {
