@@ -6,7 +6,7 @@ const variants = cva("bg-bg-2 fixed", {
   variants: {
     position: {
       left: "left-0 top-0 border-r border-r-border-2 h-screen p-4",
-      right: "right-0 top-0  border-l-border-2 h-screen p-4",
+      right: "right-0 top-0 border-l-border-2 h-screen p-4",
       bottom: "bottom-0 right-0 left-0 border-t-border-2 p-4",
     },
     open: {
