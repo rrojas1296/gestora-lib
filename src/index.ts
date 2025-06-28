@@ -20,5 +20,15 @@ export {
   DropdownMenuSubContent,
 } from "@/components/ui/dropdown-menu";
 
+export {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+
 export { default as Sidebar } from "@/components/ui/sidebar";
 import "./styles/index.css";

@@ -42,10 +42,11 @@ export default meta;
 export const Default: Story = {
   args: {
     placeholder: "Enter here text",
+    hasIcon: true,
   },
   render: (args) => {
     const Icon = args.hasIcon ? (
-      <EmailIcon className="w-5 h-5 stroke-current" />
+      <EmailIcon className="w-5 h-5 stroke-current text-text-2" />
     ) : undefined;
     return <Input {...args} Icon={Icon} />;
   },

@@ -18,6 +18,11 @@ const meta: Meta<StoryProps> = {
       options: ["left", "right", "bottom"],
       description: "Posición del sidebar",
     },
+    overlayClassName: {
+      table: {
+        disable: true,
+      },
+    },
     open: {
       table: {
         disable: true,

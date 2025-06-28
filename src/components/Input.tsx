@@ -23,7 +23,7 @@ const Input = ({
       <input
         type={type}
         className={cn(
-          "flex-1 text-sm outline-none text-text-1 placeholder:text-text-2",
+          "flex-1 text-sm outline-none text-text-1 placeholder:text-text-2 w-full",
           inputClassName,
         )}
         {...other}
