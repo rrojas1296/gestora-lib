@@ -25,10 +25,15 @@ const Button = ({
   children,
   className,
   variant = "filled",
+  type = "button",
   ...other
 }: Props) => {
   return (
-    <button className={cn(variants({ variant, className }))} {...other}>
+    <button
+      className={cn(variants({ variant, className }))}
+      type={type}
+      {...other}
+    >
       {children}
     </button>
   );

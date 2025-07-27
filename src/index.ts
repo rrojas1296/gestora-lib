@@ -4,6 +4,7 @@ export { default as Button } from "@/components/Button/Button";
 export { default as Toast } from "@/components/Toast/Toast";
 export { default as Dialog } from "@/components/Dialog/Dialog";
 export { default as NativeSelect } from "@/components/Select/Select";
+export { default as AutoComplete } from "@/components/AutoComplete/AutoComplete";
 
 export {
   DropdownMenu,
